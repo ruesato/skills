@@ -16,7 +16,8 @@ lives in its own repository and is referenced here by a pinned tag.
 
 | Plugin | Version | Source | What it does |
 |---|---|---|---|
-| `lastcall` | v0.1.1 | [ruesato/agent-skills-lastcall](https://github.com/ruesato/agent-skills-lastcall) | Close out an agentic work session: meters tokens, time, and cost from transcripts, summarizes what actually landed, and gates every durable action behind your approval. Ships `/lastcall` and `/tally`. |
+| `lastcall` | v0.1.2 | [ruesato/agent-skills-lastcall](https://github.com/ruesato/agent-skills-lastcall) | Close out an agentic work session: meters tokens, time, and cost from transcripts, summarizes what actually landed, and gates every durable action behind your approval. Ships `/lastcall` and `/tally`. |
+| `floreo` | v1.2.1 | [ruesato/agent-skill-floreo](https://github.com/ruesato/agent-skill-floreo) | Turn agent-created content into beautiful, self-contained HTML documents optimized for human reading. Ships `/floreo`, `/floreo:draft`, `/floreo:setup`, and `/floreo:unsetup`. |
 
 ## Adding a plugin
 

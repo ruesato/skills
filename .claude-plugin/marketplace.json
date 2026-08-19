@@ -7,8 +7,8 @@
     {
       "name": "lastcall",
       "source": {
-        "source": "github",
-        "repo": "ruesato/agent-skills-lastcall",
+        "source": "url",
+        "url": "https://github.com/ruesato/agent-skills-lastcall.git",
         "ref": "v0.1.2"
       },
       "description": "Close out an agentic work session. Meters tokens, time, and cost from Claude Code transcripts, summarizes what actually landed and what is still open, then gates commit, memory, report, and tracker actions behind your approval. Includes tally, a read-only mid-session checkpoint.",
@@ -20,8 +20,8 @@
     {
       "name": "floreo",
       "source": {
-        "source": "github",
-        "repo": "ruesato/agent-skill-floreo",
+        "source": "url",
+        "url": "https://github.com/ruesato/agent-skill-floreo.git",
         "ref": "v1.2.1"
       },
       "description": "Turn agent-created content into beautiful, self-contained HTML documents optimized for human reading. Invoke whenever an agent produces reports, plans, analyses, research briefs, session summaries, or other reading artifacts. Ships /floreo, /floreo:draft, /floreo:setup, and /floreo:unsetup.",

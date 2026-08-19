@@ -29,10 +29,6 @@ marketplace by its full HTTPS URL instead:
 Setting `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1` fixes the shorthand the same way,
 for every marketplace and plugin on that machine.
 
-The `/plugin install` step is unaffected either way: every plugin listed here
-is pinned to an explicit `https://` clone URL, so installs never fall back to
-SSH.
-
 ## Plugins
 
 | Plugin | Version | Source | What it does |

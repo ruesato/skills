@@ -16,7 +16,7 @@ lives in its own repository and is referenced here by a pinned tag.
 
 | Plugin | Version | Source | What it does |
 |---|---|---|---|
-| `lastcall` | v0.1.0 | [ruesato/agent-skills-lastcall](https://github.com/ruesato/agent-skills-lastcall) | Close out an agentic work session: meters tokens, time, and cost from transcripts, summarizes what actually landed, and gates every durable action behind your approval. Ships `/lastcall` and `/tally`. |
+| `lastcall` | v0.1.1 | [ruesato/agent-skills-lastcall](https://github.com/ruesato/agent-skills-lastcall) | Close out an agentic work session: meters tokens, time, and cost from transcripts, summarizes what actually landed, and gates every durable action behind your approval. Ships `/lastcall` and `/tally`. |
 
 ## Adding a plugin
 

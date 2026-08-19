@@ -1,8 +1,7 @@
 {
   "name": "ruesato-plugins",
   "owner": {
-    "name": "Ryan Uesato",
-    "email": "hello@ryanuesato.com"
+    "name": "Ryan Uesato"
   },
   "plugins": [
     {
@@ -10,11 +9,13 @@
       "source": {
         "source": "github",
         "repo": "ruesato/agent-skills-lastcall",
-        "ref": "v0.1.0"
+        "ref": "v0.1.1"
       },
-      "description": "Wrap up and evaluate agentic work sessions. Meters tokens, time, and cost from Claude Code transcripts, summarizes what actually landed, and gates every durable action behind your approval. Includes tally, a read-only mid-session checkpoint.",
-      "version": "0.1.0",
-      "author": { "name": "Ryan Uesato" }
+      "description": "Close out an agentic work session. Meters tokens, time, and cost from Claude Code transcripts, summarizes what actually landed and what is still open, then gates commit, memory, report, and tracker actions behind your approval. Includes tally, a read-only mid-session checkpoint.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Ryan Uesato"
+      }
     }
   ]
 }

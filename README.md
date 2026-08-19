@@ -8,16 +8,30 @@ lives in its own repository and is referenced here by a pinned tag.
 ## Install
 
 ```
-/plugin marketplace add https://github.com/ruesato/plugins.git
+/plugin marketplace add ruesato/plugins
 /plugin install lastcall@ruesato-plugins
 ```
 
-Every repository here is public, so this needs no GitHub account, SSH key, or
-`gh` login. Use the full `https://` URL rather than the `ruesato/plugins`
-shorthand: GitHub `owner/repo` shorthand clones over SSH by default, which
-fails for anyone without a key on their machine. (The alternative is to set
-`CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1`, but that is a per-machine setting each
-user would have to apply.)
+Every repository here is public, so no GitHub account, SSH key, or `gh` login
+is needed.
+
+### If adding the marketplace fails to authenticate
+
+Some Claude Code versions clone `owner/repo` shorthand over SSH rather than
+HTTPS, which fails on a machine with no GitHub SSH key. If the first command
+reports an authentication error or `Permission denied (publickey)`, add the
+marketplace by its full HTTPS URL instead:
+
+```
+/plugin marketplace add https://github.com/ruesato/plugins.git
+```
+
+Setting `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1` fixes the shorthand the same way,
+for every marketplace and plugin on that machine.
+
+The `/plugin install` step is unaffected either way: every plugin listed here
+is pinned to an explicit `https://` clone URL, so installs never fall back to
+SSH.
 
 ## Plugins
 

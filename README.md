@@ -33,7 +33,7 @@ for every marketplace and plugin on that machine.
 
 | Plugin | Version | Source | What it does |
 |---|---|---|---|
-| `lastcall` | v0.4.2 | [ruesato/agent-skills-lastcall](https://github.com/ruesato/agent-skills-lastcall) | Close out an agentic work session: meters tokens, time, and cost from transcripts, summarizes what actually landed, and gates every durable action behind your approval. Optionally reports your 5-hour and 7-day rate-limit windows. Ships `/lastcall` and `/tally`. |
+| `lastcall` | v0.5.0 | [ruesato/agent-skills-lastcall](https://github.com/ruesato/agent-skills-lastcall) | Close out an agentic work session: meters tokens, time, and cost from transcripts, summarizes what actually landed, and gates every durable action behind your approval. Optionally reports your 5-hour and 7-day rate-limit windows. Ships `/lastcall` and `/tally`. |
 | `floreo` | v1.2.1 | [ruesato/agent-skill-floreo](https://github.com/ruesato/agent-skill-floreo) | Turn agent-created content into beautiful, self-contained HTML documents optimized for human reading. Ships `/floreo`, `/floreo:draft`, `/floreo:setup`, and `/floreo:unsetup`. |
 
 ## Adding a plugin

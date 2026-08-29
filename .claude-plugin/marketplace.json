@@ -29,6 +29,20 @@
       "author": {
         "name": "Ryan Uesato"
       }
+    },
+    {
+      "name": "pilot-light",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ruesato/agent-skill-pilot-light.git",
+        "path": "plugins/pilot-light",
+        "ref": "v0.2.0"
+      },
+      "description": "Authenticated Playwright for concurrent agent sessions. A human logs in once with pw-auth; every session launches playwright-mcp isolated and seeded from that stored profile, so agents reach logged-in pages without ever handling credentials. A SessionStart hook keeps the recovery protocol resident and warns when the profile is stale; a PostToolUse guard detects a real login wall and forces the retry.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Ryan Uesato"
+      }
     }
   ]
 }
